@@ -1,0 +1,7 @@
+set GOPATH=C:\Users\asus\Desktop\Assignment_1\
+set GOBIN=C:\Users\asus\Desktop\Assignment_1\bin
+
+go run src/main/trunc.go
+cd bin
+go install ../src/main/trunc.go
+trunc.exe
