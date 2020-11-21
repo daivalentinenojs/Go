@@ -1,0 +1,7 @@
+set GOPATH=E:\Assignment_1\
+set GOBIN=E:\Assignment_1\bin
+
+go run src/main/slice.go
+cd bin
+go install ../src/main/slice.go
+slice.exe
