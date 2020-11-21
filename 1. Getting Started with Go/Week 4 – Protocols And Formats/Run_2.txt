@@ -1,0 +1,9 @@
+set GOPATH=E:\Assignment_2\
+set GOBIN=E:\Assignment_2\bin
+
+go run src/main/read.go
+cd bin
+go install ../src/main/read.go
+read.exe
+
+E:\Assignment_2\data.txt
